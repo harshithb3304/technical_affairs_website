@@ -14,7 +14,7 @@ const Nav = () => {
               width={50}
               height={50} 
             />
-            <h1 className='text-black text-2xl font-bold'>TECHNICAL AFFAIRS</h1>
+            <h1 className='text-white text-2xl font-bold'>TECHNICAL AFFAIRS</h1>
           </div>
         </Link>
       </div>
