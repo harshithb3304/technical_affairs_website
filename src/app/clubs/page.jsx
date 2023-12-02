@@ -153,7 +153,7 @@ const clubDetails = [
   }
 ];
 
-const  cardPage = () => {
+const  CardPage = () => {
   
   const [selectedClub, setSelectedClub] = useState(null);
   const [selectedTab, setSelectedTab] = useState("About");
@@ -170,27 +170,24 @@ const  cardPage = () => {
   };
   return (
 
-    <div>
-      <div className="absolute top-[72px] left-[-3px] w-[100vw] h-[322px] text-center text-[64px]">
-        <div className="absolute w-full top-[0px] right-[0px] left-[0px] bg-gainsboro-100 h-[322px]" />
-        <div className="absolute top-[37.27%] bottom-[50.09%] left-[calc(50% - 27px)] max-h-full">
-          <Image
-            src="/dummy.png"
-            alt=""    
-            width={100}
-            height={100} 
+    
+      <div className="relative bg-white w-full h-[3068px] overflow-hidden text-left text-base text-black font-inter">
+        <div className="absolute top-[0px] left-[-3px] w-[100vw] h-[322px] text-center text-[64px]">
+          <div className="absolute w-full top-[0px] right-[0px] left-[0px] bg-gainsboro-100 h-[322px]" />
+          <img
+            className="absolute h-[12.64%] top-[37.27%] bottom-[50.09%] left-[calc(50%_-_27px)] max-h-full w-[53.9px]"
+            alt=""
+            src="/vector.svg"
           />
+          <div className="absolute top-[640px] left-[690px] flex flex-row items-start justify-start gap-[16px] opacity-[0]">
+            <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
+            <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
+            <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
+          </div>
+          <div className="absolute top-[206px] left-[calc(50%_-_370px)] font-semibold">
+            Technical Clubs of IIITDM
+          </div>
         </div>
-        <div className="absolute top-[640px] left-[690px] flex flex-row items-start justify-start gap-[16px] opacity-[0]">
-          <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
-          <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
-          <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
-        </div>
-        <div className="absolute top-[306px] left-[calc(50%_-_370px)] font-semibold">
-          TECHNICAL CLUBS OF IIITDM
-        </div>
-      </div>
-
       
       <div className="grid lg:grid-cols-3 gap-4 p-3 lg:ml-8" style={{ marginTop: '500px', marginLeft: '180px' }}>
         {cardsData.map((card, index) => (
@@ -230,4 +227,4 @@ const  cardPage = () => {
 };
 
 
-export default cardPage;
+export default CardPage;

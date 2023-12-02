@@ -8,7 +8,7 @@ const Card = ({ title, logo, links }) => {
         <div>
               {/* ClubLogo */}
                 <div className="my-2 rounded-full overflow-hidden shadow-md transition-transform transform hover:scale-105">
-                <Image src={logo} alt="Logo" width={100} height={50}/>
+                <Image src={logo} alt="Logo" width={100} height={100}/>
                 </div>
 
 

@@ -11,7 +11,6 @@ body {
   border-width: 0;
 }
 
-<<<<<<< HEAD
 html,
 body {
   padding: 0;
@@ -43,7 +42,6 @@ img {
   display: block;
 }
 
-=======
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -56,4 +54,3 @@ img {
 .animate-scrolling {
   animation: scroll 40s linear infinite;
 }
->>>>>>> origin/webpage2+3

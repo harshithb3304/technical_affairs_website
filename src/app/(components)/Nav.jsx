@@ -25,38 +25,24 @@ const Nav = () => {
           </div>
         </Link>
       </div>
-
       <div className="flex items-center space-x-6">
-<<<<<<< HEAD
-        <Link href='/'>
-          <h1 className='text-black hover:text-white text-2xl font-bold '>Home</h1>
-        </Link>
-        <Link href='/clubs'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Clubs</h1>
-        </Link>
-        <Link href='/'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>About</h1>
-        </Link>
-        <Link href='/'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Vashisht</h1>
-=======
-        <Link href='/' className='no-underline'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Home</h1>
-        </Link>
-        <Link href='/' className='no-underline'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Clubs</h1>
-        </Link>
-        <Link href='/' className='no-underline'>
-            <h1 className='text-black hover:text-white text-2xl font-bold'>About</h1>
-        </Link>
-        <Link href='/' className='no-underline'>
-            <h1 className='text-black hover:text-white text-2xl font-bold'>Vashisht</h1>
->>>>>>> origin/webpage2+3
-        </Link>
-        <Link href='/' className='no-underline'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Joy of Giving</h1>
-        </Link>
-      </div>
+
+  <Link href='/'>
+    <h1 className='text-black hover:text-white text-2xl font-bold '>Home</h1>
+  </Link>
+  <Link href='/clubs'>
+    <h1 className='text-black hover:text-white text-2xl font-bold'>Clubs</h1>
+  </Link>
+  <Link href='/home2'>
+    <h1 className='text-black hover:text-white text-2xl font-bold'>About</h1>
+  </Link>
+  <Link href='/'>
+    <h1 className='text-black hover:text-white text-2xl font-bold'>Vashisht</h1>
+  </Link>
+  <Link href='/' className='no-underline'>
+    <h1 className='text-black hover:text-white text-2xl font-bold'>Joy of Giving</h1>
+  </Link>
+</div>
     </nav>
   );
 };

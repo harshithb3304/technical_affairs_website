@@ -1,11 +1,10 @@
-// Import necessary modules
 import React, { useState } from 'react';
 import Image from 'next/image';
 
 // Modal component
 const Modal = ({ title, logo, onClose, details }) => {
     const [activeTab, setActiveTab] = useState('about');
-  
+
     // Check if details is defined before accessing its properties
     const tabContent = {
       about: details && details.about && <div><p>{details.about}</p></div>,
@@ -33,7 +32,7 @@ const Modal = ({ title, logo, onClose, details }) => {
             <button
               onClick={onClose}
               type="button"
-              className="text-black hover:text-black focus:outline-none focus:text-gray-500 transition ease-in-out duration-150"
+              className="text-black hover:text-black focus:outline-none focus:text-gray-500 transition ease-in-out duration-150 bg-transparent"
               aria-label="Close"
             >
               &times;
@@ -55,7 +54,7 @@ const Modal = ({ title, logo, onClose, details }) => {
                 {Object.keys(tabContent).map((tab) => (
                   <button
                     key={tab}
-                    className={`px-4 py-2 mr-4 text-sm font-medium ${
+                    className={`px-4 py-2 mr-4 text-sm font-medium bg-transparent ${
                       activeTab === tab ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-500'
                     }`}
                     onClick={() => setActiveTab(tab)}
