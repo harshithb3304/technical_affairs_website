@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
 
+<<<<<<< HEAD
 html,
 body {
   padding: 0;
@@ -33,3 +43,17 @@ img {
   display: block;
 }
 
+=======
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scrolling {
+  animation: scroll 40s linear infinite;
+}
+>>>>>>> origin/webpage2+3
