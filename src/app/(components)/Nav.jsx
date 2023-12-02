@@ -1,8 +1,15 @@
-import React from 'react';
+'use client'
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 const Nav = () => {
+  useEffect(() => {
+    return () => {
+      
+    };
+  }, []);
+
   return (
     <nav className="flex justify-between bg-[#bc005a] p-4">
       <div className='flex items-center space-x-6'> 
@@ -21,16 +28,16 @@ const Nav = () => {
 
       <div className="flex items-center space-x-6">
         <Link href='/'>
-          <h1 className='text-black hover:text-white text-2xl font-bold'>Home</h1>
+          <h1 className='text-black hover:text-white text-2xl font-bold '>Home</h1>
         </Link>
-        <Link href='/'>
+        <Link href='/clubs'>
           <h1 className='text-black hover:text-white text-2xl font-bold'>Clubs</h1>
         </Link>
         <Link href='/'>
-            <h1 className='text-black hover:text-white text-2xl font-bold'>About</h1>
+          <h1 className='text-black hover:text-white text-2xl font-bold'>About</h1>
         </Link>
         <Link href='/'>
-            <h1 className='text-black hover:text-white text-2xl font-bold'>Vashisht</h1>
+          <h1 className='text-black hover:text-white text-2xl font-bold'>Vashisht</h1>
         </Link>
         <Link href='/'>
           <h1 className='text-black hover:text-white text-2xl font-bold'>Joy of Giving</h1>
