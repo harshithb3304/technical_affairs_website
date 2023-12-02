@@ -44,4 +44,8 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-}
+  plugins: [
+    require('tailwindcss-gradients'),
+    // ... other plugins
+  ],
+};
