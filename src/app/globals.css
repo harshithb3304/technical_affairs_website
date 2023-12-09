@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+=======
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,6 +16,7 @@ body {
   border-width: 0;
 }
 
+<<<<<<< HEAD
 html,
 body {
   padding: 0;
@@ -42,6 +48,8 @@ img {
   display: block;
 }
 
+=======
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -53,4 +61,8 @@ img {
 
 .animate-scrolling {
   animation: scroll 40s linear infinite;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698

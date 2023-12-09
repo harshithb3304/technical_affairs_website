@@ -13,6 +13,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
+<<<<<<< HEAD
         white: "#fff",
         gainsboro: {
           "100": "#d9d9d9",
@@ -27,16 +28,40 @@ module.exports = {
           "200": "#a7a6a6",
         },
         dimgray: "#5c585a",
+=======
+        "text-color": "#fff",
+        black: "#000",
+        gray: "rgba(0, 0, 0, 0.2)",
+        red: "#f91414",
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
       },
       spacing: {},
       fontFamily: {
         inter: "Inter",
+<<<<<<< HEAD
+=======
+        "image-text": "'DM Sans'",
+      },
+      borderRadius: {
+        "8xs": "5px",
+        "15xl-2": "34.2px",
+        "81xl": "100px",
+        "3xs": "10px",
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
       },
     },
     fontSize: {
       base: "16px",
+<<<<<<< HEAD
       "9xl": "28px",
       "17xl": "36px",
+=======
+      "3xs": "10px",
+      xs: "12px",
+      "9xl": "28px",
+      "17xl": "36px",
+      xl: "20px",
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
       "29xl": "48px",
       inherit: "inherit",
     },
@@ -44,8 +69,12 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
+<<<<<<< HEAD
   plugins: [
     require('tailwindcss-gradients'),
     // ... other plugins
   ],
 };
+=======
+}
+>>>>>>> 6226169c9f3fda3167cbc0abe94e7eae27327698
